@@ -1,0 +1,59 @@
+<templateSet group="PHP">
+  <template name="vv" value="echo &quot;&lt;pre&gt;&quot;;&#10;var_dump($END$);&#10;exit;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="v" value="echo &quot;&lt;pre&gt;&quot;;&#10;var_dump($END$);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if($PARAMETERS$){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="while" value="while($PARAMETERS$){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="do" value="do{&#10;    $END$&#10;}while($PARAMETERS$);" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="elif" value="else if($PARAMETERS$){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="else" value="else{&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fun" value="function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
