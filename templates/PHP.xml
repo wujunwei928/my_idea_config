@@ -56,4 +56,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="for" value="for($INDEX$ = $PARAMETERS$; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
